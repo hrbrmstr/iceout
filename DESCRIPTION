@@ -22,7 +22,9 @@ Imports:
     jsonlite,
     readr,
     ggplot2,
-    utils
+    utils,
+    shiny,
+    hrbrthemes
 Encoding: UTF-8
 Authors@R: c(
       person("Bob", "Rudis", email = "bob@rud.is", role = c("aut"),

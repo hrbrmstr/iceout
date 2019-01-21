@@ -2,8 +2,8 @@ library(stringi)
 library(hrbrthemes)
 library(tidyverse)
 
-xdf <- read_csv("extdata/liag_freeze_thaw_table.csv.gz", na = c("-999"))
-cdf <- read_csv("extdata/liag_physical_character_table.csv.gz", na = c("-999"))
+xdf <- read_csv(here::here("build/extdata/liag_freeze_thaw_table.csv.gz"), na = c("-999"))
+cdf <- read_csv(here::here("build/extdata/liag_physical_character_table.csv.gz"), na = c("-999"))
 
 left_join(
   rename(xdf, obs_comments = comments),

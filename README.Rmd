@@ -48,6 +48,7 @@ The following functions are provided:
 - `read_mdnr_metadata`:	Retrieves metadata on all available Minnesota Lakes.
 - `read_minnesota_iceout_data`:	Read Minnesota Department of Natural Resources State Ice-out Data
 - `plot_iceout`:	Plot a single iceout dataset (excluding data from `nsidc_icout`)
+- `explore_us`:  Explore Ice-out Dates for U.S. Inland Bodies of Water (embedded shiny app)
 
 The following datasets are provided:
 

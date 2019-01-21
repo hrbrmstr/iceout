@@ -34,4 +34,5 @@
 #' @importFrom httr GET content stop_for_status
 #' @importFrom jsonlite fromJSON
 #' @importFrom utils data
+#' @importFrom shiny runApp
 NULL

@@ -42,6 +42,8 @@ The following functions are provided:
     Resources State Ice-out Data
   - `plot_iceout`: Plot a single iceout dataset (excluding data from
     `nsidc_icout`)
+  - `explore_us`: Explore Ice-out Dates for U.S. Inland Bodies of Water
+    (embedded shiny app)
 
 The following datasets are provided:
 
@@ -329,8 +331,8 @@ cloc::cloc_pkg_md()
 
 | Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines | (%) |
 | :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | --: |
-| R    |       13 | 0.93 | 384 | 0.78 |         122 | 0.69 |      346 | 0.8 |
-| Rmd  |        1 | 0.07 | 110 | 0.22 |          55 | 0.31 |       89 | 0.2 |
+| R    |       14 | 0.93 | 387 | 0.78 |         122 | 0.69 |      350 | 0.8 |
+| Rmd  |        1 | 0.07 | 110 | 0.22 |          55 | 0.31 |       90 | 0.2 |
 
 ## Code of Conduct
 
